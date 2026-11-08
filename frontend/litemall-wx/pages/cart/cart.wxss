@@ -376,7 +376,7 @@ page {
   text-align: center;
   line-height: 100rpx;
   font-size: 29rpx;
-  background: #b4282d;
+  background: #c2456a;
   color: #fff;
 }
 
@@ -410,7 +410,7 @@ page {
   border-bottom-right-radius: 50rpx;
   letter-spacing: 3rpx;
   /* background-image: linear-gradient(to right, #ff7701 100%); */
-  background-image: linear-gradient(to right, #ab956d 0%, #ab956d 100%);
+  background-image: linear-gradient(to right, #c2456a 0%, #c2456a 100%);
 }
 
 .action_btn_area .checkout {
@@ -469,7 +469,7 @@ page {
   border-top-right-radius: 50rpx;
   border-bottom-right-radius: 50rpx;
   letter-spacing: 3rpx;
-  background-image: linear-gradient(to right, #ab956d 0%, #ab956d 100%);
+  background-image: linear-gradient(to right, #c2456a 0%, #c2456a 100%);
   /* background-image: linear-gradient(to right, #ff7701 0%, #fe4800 100%); */
 }
 

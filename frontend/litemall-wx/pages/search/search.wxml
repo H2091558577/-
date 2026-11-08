@@ -61,6 +61,6 @@
   </view>
 
   <view class="search-result-empty" wx:if="{{!goodsList.length && searchStatus}}">
-    <text class="text">您寻找的商品还未上架</text>
+    <text class="text">您寻找的鲜花还未上架</text>
   </view>
 </scroll-view>

@@ -35,8 +35,8 @@ page {
 }
 
 .collect-switch .item.active .txt {
-  color: #ab956d;
-  border-bottom: 4rpx solid #ab956d;
+  color: #c2456a;
+  border-bottom: 4rpx solid #c2456a;
 }
 
 .no-collect {
@@ -181,6 +181,6 @@ page {
   height: 27rpx;
   line-height: 27rpx;
   overflow: hidden;
-  color: #b4282d;
+  color: #c2456a;
   font-size: 27rpx;
 }

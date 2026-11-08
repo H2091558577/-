@@ -212,7 +212,7 @@
 .topic-goods .b .price {
   width: 476rpx;
   display: flex;
-  color: #b4282d;
+  color: #c2456a;
   line-height: 50rpx;
   font-size: 33rpx;
 }

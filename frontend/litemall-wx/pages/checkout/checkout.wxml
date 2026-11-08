@@ -50,7 +50,7 @@
   <view class="order-box">
     <view class="order-item">
       <view class="l">
-        <text class="name">商品合计</text>
+        <text class="name">鲜花合计</text>
       </view>
       <view class="r">
         <text class="txt">￥{{goodsTotalPrice}}元</text>

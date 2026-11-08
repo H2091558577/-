@@ -119,7 +119,7 @@
 .goods-info .retailPrice {
   padding-left: 5%;
   font-size: 30rpx;
-  color: #a78845;
+  color: #c2456a;
 }
 
 .goods-info .brand {
@@ -457,7 +457,7 @@
   display: block;
   height: 8rpx;
   width: 8rpx;
-  background: #b4282d;
+  background: #c2456a;
   border-radius: 50%;
   margin-top: 11rpx;
 }
@@ -560,7 +560,7 @@
   height: 30rpx;
   text-align: center;
   font-size: 30rpx;
-  color: #b4282d;
+  color: #c2456a;
 }
 
 .bottom-btn {
@@ -630,7 +630,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  background: #b4282d;
+  background: #c2456a;
   text-align: center;
   font-size: 18rpx;
   color: #fff;
@@ -647,7 +647,7 @@
 
 .bottom-btn .c {
   float: left;
-  background: #b4282d;
+  background: #c2456a;
   height: 100rpx;
   line-height: 96rpx;
   flex: 1;
@@ -786,8 +786,8 @@
 }
 
 .spec-con .value.selected {
-  border: 1px solid #b4282d;
-  color: #b4282d;
+  border: 1px solid #c2456a;
+  color: #c2456a;
 }
 
 .number-item .selnum {

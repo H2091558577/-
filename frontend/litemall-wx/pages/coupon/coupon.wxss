@@ -19,7 +19,7 @@ page {
   position: relative;
   height: 290rpx;
   width: 700rpx;
-  background: linear-gradient(to right, #cfa568, #e3bf79);
+  background: linear-gradient(to right, #cfa568, #f2c1c6);
   margin-bottom: 30rpx;
   margin-left: 30rpx;
   margin-right: 30rpx;
@@ -54,7 +54,7 @@ page {
 
 .discount {
   font-size: 50rpx;
-  color: #b4282d;
+  color: #c2456a;
 }
 
 .min {

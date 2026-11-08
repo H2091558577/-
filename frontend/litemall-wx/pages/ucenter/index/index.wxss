@@ -12,7 +12,7 @@ page {
 }
 
 .profile-info {
-  background-color: #ab956d;
+  background-color: #c2456a;
   color: #f4f4f4;
   display: flex;
   align-items: center;
@@ -109,7 +109,7 @@ page {
   height: 28rpx;
   width: 28rpx;
   position: absolute;
-  background: #b4282d;
+  background: #c2456a;
   color: #fff;
   border-radius: 50%;
   margin-top: 20rpx;

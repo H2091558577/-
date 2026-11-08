@@ -17,7 +17,7 @@
   display: block;
   height: 10rpx;
   width: 10rpx;
-  background: #b4282d;
+  background: #c2456a;
   border-radius: 50%;
   margin-top: 11rpx;
 }

@@ -5,7 +5,7 @@ function resolve(dir) {
   return path.join(__dirname, dir)
 }
 
-const name = 'litemall' // page title
+const name = '鲜花订购与管理系统' // page title
 
 // If your port is set to 80,
 // use administrator privileges to execute the command line.
@@ -28,10 +28,12 @@ module.exports = {
   assetsDir: 'static',
   lintOnSave: process.env.NODE_ENV === 'development',
   productionSourceMap: false,
+  // 本机构建环境不支持子进程（spawn EPERM），关闭 thread-loader / terser 并行
+  parallel: false,
   devServer: {
     proxy: {
       '/admin': {
-        target: 'http://localhost:8080'
+        target: 'http://localhost:8081'
       },
     },
     port: port,

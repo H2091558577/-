@@ -54,7 +54,7 @@ page, .container {
 
 .post-comment .goods .status {
   width: 105rpx;
-  color: #b4282d;
+  color: #c2456a;
   font-size: 25rpx;
 }
 

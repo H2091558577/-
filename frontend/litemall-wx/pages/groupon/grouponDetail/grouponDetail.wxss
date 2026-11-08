@@ -45,7 +45,7 @@ page {
 }
 
 .item-c .btn.active {
-  background: #a78845;
+  background: #c2456a;
   color: #fff;
 }
 
@@ -71,7 +71,7 @@ page {
 .order-goods .h .status {
   float: right;
   font-size: 30rpx;
-  color: #b4282d;
+  color: #c2456a;
 }
 
 .order-goods .item {
@@ -159,7 +159,7 @@ page {
 }
 
 .order-goods .item .btn.active {
-  background: #b4282d;
+  background: #c2456a;
   color: #fff;
 }
 
@@ -274,7 +274,7 @@ page {
 .menu-list-pro .h .status {
   float: right;
   font-size: 30rpx;
-  color: #a78845;
+  color: #c2456a;
 }
 
 .menu-list-pro  .menu-list-item {
@@ -300,5 +300,5 @@ page {
   width: 80rpx;
   margin-top: 5rpx;
   font-size: 22rpx;
-  color: #a78845;
+  color: #c2456a;
 }

@@ -911,6 +911,52 @@ public class WxOrderService {
     }
 
     /**
+     * 模拟支付（本地演示用）
+     * <p>
+     * 微信支付需要真实的商户号与证书，课程演示环境下无法完成支付回调，
+     * 因此提供该接口直接把未支付订单置为"已付款"，便于演示订单流转。
+     * 库存已在提交订单时扣减，这里不再重复扣减。
+     *
+     * @param userId 用户ID
+     * @param body   订单信息，{ orderId：xxx }
+     * @return 订单操作结果
+     */
+    public Object mockPay(Integer userId, String body) {
+        if (userId == null) {
+            return ResponseUtil.unlogin();
+        }
+        Integer orderId = JacksonUtil.parseInteger(body, "orderId");
+        if (orderId == null) {
+            return ResponseUtil.badArgument();
+        }
+
+        LitemallOrder order = orderService.findById(userId, orderId);
+        if (order == null) {
+            return ResponseUtil.badArgument();
+        }
+        if (!order.getUserId().equals(userId)) {
+            return ResponseUtil.badArgumentValue();
+        }
+
+        OrderHandleOption handleOption = OrderUtil.build(order);
+        if (!handleOption.isPay()) {
+            return ResponseUtil.fail(ORDER_INVALID_OPERATION, "订单不能支付");
+        }
+
+        order.setOrderStatus(OrderUtil.STATUS_PAY);
+        order.setPayTime(LocalDateTime.now());
+        order.setPayId("MOCK" + System.currentTimeMillis());
+        if (orderService.updateWithOptimisticLocker(order) == 0) {
+            return ResponseUtil.updatedDateExpired();
+        }
+
+        // 取消订单超时未支付任务
+        taskService.removeTask(new OrderUnpaidTask(order.getId()));
+
+        return ResponseUtil.ok();
+    }
+
+    /**
      * 删除订单
      * <p>
      * 1. 检测当前订单是否可以删除；

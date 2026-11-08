@@ -26,7 +26,7 @@
 
   <view class="order-goods">
     <view class="h">
-      <view class="label">商品信息</view>
+      <view class="label">鲜花信息</view>
       <view class="status">{{orderInfo.orderStatusText}}</view>
     </view>
     <view class="goods">
@@ -61,7 +61,7 @@
       </view>
       <view class="total">
         <view class="t">
-          <text class="label">商品合计：</text>
+          <text class="label">鲜花合计：</text>
           <text class="txt">￥{{orderInfo.goodsPrice}}元</text>
         </view>
         <view class="t">

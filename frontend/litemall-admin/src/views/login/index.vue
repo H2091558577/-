@@ -35,22 +35,19 @@
 
       <div style="position:relative">
         <div class="tips">
-          <span> 超级管理员用户名: admin123</span>
-          <span> 超级管理员用户名：admin123</span>
+          <span> 超级管理员：admin123 / admin123</span>
         </div>
         <div class="tips">
-          <span> 商城管理员用户名: mall123</span>
-          <span> 商城管理员用户名：mall123</span>
+          <span> 商城管理员：mall123 / mall123</span>
         </div>
         <div class="tips">
-          <span> 推广管理员用户名: promotion123</span>
-          <span> 推广管理员用户名：promotion123</span>
+          <span> 推广管理员：promotion123 / promotion123</span>
         </div>
       </div>
     </el-form>
 
     <div class="copyright">
-      Copyright © 2022 xxx.com 版权所有 <a href="https://github.com/linlinjava/litemall">沪ICP备xxx号</a>
+      Copyright © 2025 花语鲜花商城 · 鲜花订购与管理系统
     </div>
   </div>
 </template>
@@ -184,14 +181,14 @@ $cursor: #fff;
 </style>
 
 <style lang="scss" scoped>
-$bg:#2d3a4b;
+$bg:#3b2b31;
 $dark_gray:#889aa4;
 $light_gray:#eee;
 
 .login-container {
   min-height: 100%;
   width: 100%;
-  background-color: $bg;
+  background: linear-gradient(135deg, #4a2f38 0%, #7a4f5c 45%, #3b2b31 100%);
   overflow: hidden;
 
   .locale-changer {

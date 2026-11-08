@@ -34,7 +34,7 @@
         </view>
         <view class="info">
           <text class="name">{{gitem.goodsName}}</text>
-          <text class="number">共{{gitem.number}}件商品</text>
+          <text class="number">共{{gitem.number}}件鲜花</text>
         </view>
         <view class="status"></view>
       </view>

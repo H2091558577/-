@@ -79,7 +79,7 @@ page {
 }
 
 .sort-box .item.active .txt {
-  color: #b4282d;
+  color: #c2456a;
 }
 
 .sort-box .item .van-icon {
@@ -108,8 +108,8 @@ page {
 }
 
 .sort-box-category .item.active {
-  color: #b4282d;
-  border: 1px solid #b4282d;
+  color: #c2456a;
+  border: 1px solid #c2456a;
 }
 
 .cate-item .b {
@@ -159,5 +159,5 @@ page {
   height: 30rpx;
   text-align: center;
   font-size: 30rpx;
-  color: #b4282d;
+  color: #c2456a;
 }

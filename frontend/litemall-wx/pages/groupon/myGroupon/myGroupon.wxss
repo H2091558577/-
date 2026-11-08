@@ -8,7 +8,7 @@ page {
   width: 100%;
   background: #fff;
   height: 84rpx;
-  border-bottom: 1px solid #a78845;
+  border-bottom: 1px solid #c2456a;
 }
 
 .orders-switch .item {
@@ -30,8 +30,8 @@ page {
 }
 
 .orders-switch .item.active .txt {
-  color: #a78845;
-  border-bottom: 4rpx solid #a78845;
+  color: #c2456a;
+  border-bottom: 4rpx solid #c2456a;
 }
 
 .no-order {
@@ -86,13 +86,13 @@ page {
 
 .order .h .l {
   float: left;
-  color: #a78845;
+  color: #c2456a;
   font-size: 26rpx;
 }
 
 .order .h .r {
   float: right;
-  color: #a78845;
+  color: #c2456a;
   font-size: 26rpx;
 }
 
@@ -106,13 +106,13 @@ page {
 
 .order .i .l {
   float: left;
-  color: #a78845;
+  color: #c2456a;
   font-size: 26rpx;
 }
 
 .order .i .r {
   float: right;
-  color: #a78845;
+  color: #c2456a;
   font-size: 26rpx;
 }
 
@@ -126,12 +126,12 @@ page {
 .order .j .l {
   float: left;
   font-size: 26rpx;
-  color: #a78845;
+  color: #c2456a;
 }
 
 .order .j .r {
   float: right;
-  color: #a78845;
+  color: #c2456a;
   font-size: 26rpx;
 }
 
@@ -178,7 +178,7 @@ page {
 
 .order .goods .status {
   width: 105rpx;
-  color: #a78845;
+  color: #c2456a;
   font-size: 25rpx;
 }
 
@@ -209,5 +209,5 @@ page {
   border-radius: 5rpx;
   font-size: 28rpx;
   color: #fff;
-  background: #a78845;
+  background: #c2456a;
 }

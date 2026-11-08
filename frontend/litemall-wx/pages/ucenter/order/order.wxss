@@ -30,8 +30,8 @@ page {
 }
 
 .orders-switch .item.active .txt {
-  color: #ab956d;
-  border-bottom: 4rpx solid #ab956d;
+  color: #c2456a;
+  border-bottom: 4rpx solid #c2456a;
 }
 
 .no-order {
@@ -84,7 +84,7 @@ page {
 
 .order .h .r {
   float: right;
-  color: #b4282d;
+  color: #c2456a;
   font-size: 24rpx;
 }
 
@@ -131,7 +131,7 @@ page {
 
 .order .goods .status {
   width: 105rpx;
-  color: #b4282d;
+  color: #c2456a;
   font-size: 25rpx;
 }
 
@@ -162,5 +162,5 @@ page {
   border-radius: 5rpx;
   font-size: 28rpx;
   color: #fff;
-  background: #b4282d;
+  background: #c2456a;
 }

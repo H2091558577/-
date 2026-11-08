@@ -37,8 +37,8 @@
 }
 
 .comments .h .item.active .txt {
-  color: #ab2b2b;
-  border-bottom: 4rpx solid #ab2b2b;
+  color: #a8304f;
+  border-bottom: 4rpx solid #a8304f;
 }
 
 .comments .b {

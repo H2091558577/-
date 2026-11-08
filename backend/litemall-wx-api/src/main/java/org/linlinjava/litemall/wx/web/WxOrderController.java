@@ -144,6 +144,18 @@ public class WxOrderController {
     }
 
     /**
+     * 模拟支付（本地演示用，真实环境请使用 prepay + 微信支付回调）
+     *
+     * @param userId 用户ID
+     * @param body   订单信息，{ orderId：xxx }
+     * @return 订单操作结果
+     */
+    @PostMapping("mockpay")
+    public Object mockpay(@LoginUser Integer userId, @RequestBody String body) {
+        return wxOrderService.mockPay(userId, body);
+    }
+
+    /**
      * 删除订单
      *
      * @param userId 用户ID

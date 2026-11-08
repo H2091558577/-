@@ -10,8 +10,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    name: 'litemall',
-    address: 'https://github.com/linlinjava/litemall',
+    name: '花语鲜花商城',
+    address: '广州市天河区花城大道 88 号花语花艺中心',
     latitude: '31.201900',
     longitude: '121.587839',
     phone: '021-xxxx-xxxx',

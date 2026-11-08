@@ -83,6 +83,23 @@
                             </resources>
                         </configuration>
                     </execution>
+                    <!-- 网页版客户端：frontend/flower-web -> 静态资源 /web/ -->
+                    <execution>
+                        <id>copy-resources-flower-web</id>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${basedir}/target/classes/static/web</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>${project.basedir}/../../frontend/flower-web</directory>
+                                    <filtering>false</filtering>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
                 </executions>
             </plugin>
         </plugins>

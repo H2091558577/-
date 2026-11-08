@@ -64,7 +64,7 @@ page, .container {
 .groupon-list .price {
   width: 476rpx;
   display: flex;
-  color: #ab956d;
+  color: #c2456a;
   line-height: 50rpx;
   font-size: 33rpx;
 }
@@ -78,7 +78,7 @@ page, .container {
 .groupon-list .retailPrice {
   margin-left: 30rpx;
   font-size: 28rpx;
-  color: #a78845;
+  color: #c2456a;
 }
 
 .page {

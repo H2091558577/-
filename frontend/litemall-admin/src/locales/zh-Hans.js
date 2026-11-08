@@ -6,7 +6,7 @@ export default {
   lang: '中文',
   app: {
     menu: {
-      dashboard: '首页',
+      dashboard: '数据看板',
       user: '用户管理',
       user_user: '会员管理',
       user_address: '收货地址',
@@ -14,20 +14,20 @@ export default {
       user_footprint: '会员足迹',
       user_history: '搜索历史',
       user_feedback: '意见反馈',
-      mall: '商场管理',
+      mall: '鲜花商城',
       mall_region: '行政区域',
-      mall_brand: '品牌制造商',
-      mall_category: '商品类目',
+      mall_brand: '花艺品牌',
+      mall_category: '鲜花类目',
       mall_order: '订单管理',
       mall_aftersale: '售后管理',
       mall_issue: '通用问题',
       mall_keyword: '关键词',
-      goods: '商品管理',
-      goods_list: '商品列表',
-      goods_create: '商品上架',
-      goods_edit: '商品编辑',
-      goods_comment: '商品评论',
-      promotion: '推广管理',
+      goods: '鲜花管理',
+      goods_list: '鲜花列表',
+      goods_create: '鲜花上架',
+      goods_edit: '鲜花编辑',
+      goods_comment: '鲜花评论',
+      promotion: '营销推广',
       promotion_ad: '广告管理',
       promotion_coupon: '优惠券管理',
       promotion_coupon_detail: '优惠券详情',
@@ -42,7 +42,7 @@ export default {
       sys_log: '操作日志',
       sys_role: '角色管理',
       sys_os: '对象存储',
-      config: '配置管理',
+      config: '系统配置',
       config_mall: '商场配置',
       config_express: '运费配置',
       config_order: '订单配置',
@@ -50,7 +50,7 @@ export default {
       stat: '统计报表',
       stat_user: '用户统计',
       stat_order: '订单统计',
-      stat_goods: '商品统计',
+      stat_goods: '鲜花统计',
       external_link: '外链',
       external_link_tencent_cos: '腾讯云存储',
       external_link_tencent_sms: '腾讯云短信',
@@ -88,7 +88,7 @@ export default {
   },
   login: {
     page: {
-      title: '管理员登录'
+      title: '鲜花订购与管理系统 · 管理后台'
     },
     placeholder: {
       username: '管理员账户',
@@ -115,9 +115,9 @@ export default {
   },
   dashboard: {
     section: {
-      user_total: '用户数量',
-      goods_total: '商品数量',
-      product_total: '货品数量',
+      user_total: '会员数量',
+      goods_total: '鲜花数量',
+      product_total: '规格库存',
       order_total: '订单数量'
     }
   },
@@ -172,24 +172,24 @@ export default {
     table: {
       id: '收藏ID',
       user_id: '用户ID',
-      value_id: '商品ID',
+      value_id: '鲜花ID',
       add_time: '添加时间'
     },
     placeholder: {
       filter_user_id: '请输入用户ID',
-      filter_value_id: '请输入商品ID'
+      filter_value_id: '请输入鲜花ID'
     }
   },
   user_footprint: {
     table: {
       id: '足迹ID',
       user_id: '用户ID',
-      goods_id: '商品ID',
+      goods_id: '鲜花ID',
       add_time: '添加时间'
     },
     placeholder: {
       filter_user_id: '请输入用户ID',
-      filter_goods_id: '请输入商品ID'
+      filter_goods_id: '请输入鲜花ID'
     }
   },
   user_history: {
@@ -274,7 +274,7 @@ export default {
   mall_order: {
     text: {
       date_range_separator: '至',
-      expand_goods_name: '商品名称：{goods_name}',
+      expand_goods_name: '鲜花名称：{goods_name}',
       expand_specifications: '规格：{specifications}',
       expand_unit_price: '单价：{price} 元',
       expand_number: '数量：{number} 件',
@@ -282,7 +282,7 @@ export default {
       detail_consigne: '（收货人）{consignee}',
       detail_mobile: '（手机号）{mobile}',
       detail_address: '（地址）{address}',
-      detail_price_info: '(实际费用){actual_price}元 = (商品总价){goods_price}元 + (快递费用){freight_price}元 - (优惠减免){coupon_price}元 - (积分减免){integral_price}元',
+      detail_price_info: '(实际费用){actual_price}元 = (鲜花总价){goods_price}元 + (快递费用){freight_price}元 - (优惠减免){coupon_price}元 - (积分减免){integral_price}元',
       detail_pay_channel: '（支付渠道）{pay_channel}',
       detail_pay_time: '（支付时间）{pay_time}',
       detail_ship_channel: '（快递公司）{ship_channel}',
@@ -308,13 +308,13 @@ export default {
       ship_sn: '物流单号',
       ship_channel: '物流渠道',
       actions: '操作',
-      detail_goods_name: '商品名称',
-      detail_goods_sn: '商品编号',
-      detail_goods_specifications: '货品规格',
-      detail_goods_price: '货品价格',
-      detail_goods_number: '货品数量',
-      detail_goods_pic_url: '货品图片',
-      pay_goods_name: '商品',
+      detail_goods_name: '鲜花名称',
+      detail_goods_sn: '鲜花编号',
+      detail_goods_specifications: '规格规格',
+      detail_goods_price: '规格价格',
+      detail_goods_number: '规格数量',
+      detail_goods_pic_url: '规格图片',
+      pay_goods_name: '鲜花',
       pay_goods_specifications: '规格',
       pay_goods_number: '下单数量'
     },
@@ -330,7 +330,7 @@ export default {
       detail_user_nickname: '订单用户',
       detail_message: '用户留言',
       detail_receiving_info: '收货信息',
-      detail_goods: '商品信息',
+      detail_goods: '鲜花信息',
       detail_price_info: '费用信息',
       detail_pay_info: '支付信息',
       detail_ship_info: '快递信息',
@@ -468,7 +468,7 @@ export default {
   },
   goods_list: {
     table: {
-      id: '商品ID',
+      id: '鲜花ID',
       name: '名称',
       pic_url: '图片',
       share_url: '分享图',
@@ -479,16 +479,16 @@ export default {
       is_hot: '是否热品',
       is_on_sale: '是否在售',
       actions: '操作',
-      goods_sn: '商品编号',
+      goods_sn: '鲜花编号',
       gallery: '宣传画廊',
-      brief: '商品介绍',
-      unit: '商品单位',
+      brief: '鲜花介绍',
+      unit: '鲜花单位',
       keywords: '关键字',
       category_id: '类目ID',
       brand_id: '品牌商ID'
     },
     dialog: {
-      detail: '商品详情'
+      detail: '鲜花详情'
     },
     value: {
       is_new_true: '新品',
@@ -499,66 +499,66 @@ export default {
       is_on_sale_false: '未售'
     },
     placeholder: {
-      filter_goods_id: '请输入商品ID',
-      filter_goods_sn: '请输入商品编号',
-      filter_name: '请输入商品名称'
+      filter_goods_id: '请输入鲜花ID',
+      filter_goods_sn: '请输入鲜花编号',
+      filter_name: '请输入鲜花名称'
     }
   },
   goods_edit: {
     section: {
-      goods: '商品介绍',
-      specifications: '商品规格',
-      products: '商品库存',
-      attributes: '商品参数'
+      goods: '鲜花介绍',
+      specifications: '鲜花规格',
+      products: '鲜花库存',
+      attributes: '鲜花参数'
     },
     table: {
       specification_name: '规格名',
       specification_value: '规格值',
       specification_pic_url: '规格图片',
       specification_actions: '操作',
-      product_specifications: '货品规格',
-      product_price: '货品售价',
-      product_number: '货品数量',
-      product_url: '货品图片',
+      product_specifications: '规格规格',
+      product_price: '规格售价',
+      product_number: '规格数量',
+      product_url: '规格图片',
       product_actions: '操作',
-      attribute_name: '商品参数名称',
-      attribute_value: '商品参数值',
+      attribute_name: '鲜花参数名称',
+      attribute_value: '鲜花参数值',
       attribute_actions: '操作'
     },
     dialog: {
       create_specification: '设置规格',
-      create_product: '添加货品',
-      create_attribute: '添加商品参数',
+      create_product: '添加规格',
+      create_attribute: '添加鲜花参数',
       edit_specification: '设置规格',
-      edit_product: '编辑货品',
-      edit_attribute_add: '添加商品参数',
-      edit_attribute_edit: '编辑商品参数'
+      edit_product: '编辑规格',
+      edit_attribute_add: '添加鲜花参数',
+      edit_attribute_edit: '编辑鲜花参数'
     },
     form: {
-      id: '商品ID',
-      goods_sn: '商品编号',
-      name: '商品名称',
+      id: '鲜花ID',
+      goods_sn: '鲜花编号',
+      name: '鲜花名称',
       counter_price: '市场售价',
       is_new: '是否新品',
       is_hot: '是否热卖',
       is_on_sale: '是否在售',
-      pic_url: '商品图片',
+      pic_url: '鲜花图片',
       gallery: '宣传画廊',
-      unit: '商品单位',
+      unit: '鲜花单位',
       keywords: '关键字',
       category_id: '所属分类',
       brand_id: '所属品牌商',
-      brief: '商品简介',
-      detail: '商品详细介绍',
+      brief: '鲜花简介',
+      detail: '鲜花详细介绍',
       specification_name: '规格名',
       specification_value: '规格值',
       specification_pic_url: '规格图片',
-      product_specifications: '货品规格列',
-      product_price: '货品售价',
-      product_number: '货品数量',
-      product_url: '货品图片',
-      attribute_name: '商品参数名称',
-      attribute_value: '商品参数值'
+      product_specifications: '规格规格列',
+      product_price: '规格售价',
+      product_number: '规格数量',
+      product_url: '规格图片',
+      attribute_name: '鲜花参数名称',
+      attribute_value: '鲜花参数值'
     },
     value: {
       is_new_true: '新品',
@@ -575,13 +575,13 @@ export default {
     },
     button: {
       publish: '上架',
-      edit: '更新商品'
+      edit: '更新鲜花'
     }
   },
   goods_comment: {
     table: {
       user_id: '用户ID',
-      value_id: '商品ID',
+      value_id: '鲜花ID',
       star: '打分',
       content: '评论内容',
       pic_urls: '评论图片',
@@ -596,7 +596,7 @@ export default {
     },
     placeholder: {
       filter_user_id: '请输入用户ID',
-      filter_value_id: '请输入商品ID'
+      filter_value_id: '请输入鲜花ID'
     }
   },
   promotion_ad: {
@@ -650,15 +650,15 @@ export default {
       min: '最低消费',
       discount: '满减金额',
       limit: '每人限领',
-      goods_type: '商品使用范围',
+      goods_type: '鲜花使用范围',
       type: '优惠券类型',
       total: '优惠券数量',
       status: '状态',
       actions: '操作',
       category_name: '分类名称',
       category_actions: '操作',
-      goods_name: '商品名称',
-      goods_sn: '商品编号',
+      goods_name: '鲜花名称',
+      goods_sn: '鲜花编号',
       goods_actions: '操作'
     },
     form: {
@@ -671,14 +671,14 @@ export default {
       type: '分发类型',
       total: '优惠券数量',
       time_type: '有效期',
-      goods_type: '商品限制范围'
+      goods_type: '鲜花限制范围'
     },
     value: {
       time_type_0: '领券相对天数',
       time_type_1: '指定绝对时间',
       goods_type_0: '全场通用',
       goods_type_1: '指定分类',
-      goods_type_2: '指定商品'
+      goods_type_2: '指定鲜花'
     },
     placeholder: {
       filter_name: '请输入优惠券标题',
@@ -687,7 +687,7 @@ export default {
       start_time: '选择日期',
       end_time: '选择日期',
       category: '请选择分类名称',
-      goods: '商品名称/商品货号'
+      goods: '鲜花名称/鲜花货号'
     }
   },
   promotion_coupon_detail: {
@@ -705,7 +705,7 @@ export default {
       discount: '优惠面值',
       limit: '每人限额',
       status: '当前状态',
-      goods_type: '商品范围',
+      goods_type: '鲜花范围',
       time_scope: '有效期',
       code: '优惠兑换码',
       total: '发行数量',
@@ -742,39 +742,39 @@ export default {
   },
   promotion_topic_edit: {
     table: {
-      goods_id: '商品ID',
+      goods_id: '鲜花ID',
       goods_pic_url: '图片',
-      goods_name: '商品名称',
-      goods_brief: '商品介绍',
+      goods_name: '鲜花名称',
+      goods_brief: '鲜花介绍',
       goods_actions: '操作',
-      search_goods_id: '商品ID',
+      search_goods_id: '鲜花ID',
       search_goods_pic_url: '图片',
-      search_goods_name: '商品名称'
+      search_goods_name: '鲜花名称'
     },
     dialog: {
-      add_goods: '添加商品'
+      add_goods: '添加鲜花'
     },
     form: {
       title: '专题标题',
       subtitle: '专题子标题',
       pic_url: '专题图片',
       content: '专题内容',
-      price: '商品低价',
+      price: '鲜花低价',
       read_count: '阅读量',
-      goods: '专题商品'
+      goods: '专题鲜花'
     },
     placeholder: {
-      search_goods_sn: '请输入商品编号',
-      search_name: '请输入商品名称'
+      search_goods_sn: '请输入鲜花编号',
+      search_name: '请输入鲜花名称'
     },
     button: {
-      goods_create: '创建商品'
+      goods_create: '创建鲜花'
     }
   },
   promotion_groupon_rule: {
     table: {
       id: '团购规则ID',
-      goods_id: '商品ID',
+      goods_id: '鲜花ID',
       goods_name: '名称',
       pic_url: '图片',
       discount: '团购优惠',
@@ -784,13 +784,13 @@ export default {
       actions: '操作'
     },
     form: {
-      goods_id: '商品ID',
+      goods_id: '鲜花ID',
       discount: '团购折扣',
       discount_member: '团购人数要求',
       expire_time: '过期时间'
     },
     placeholder: {
-      filter_goods_id: '请输入商品编号',
+      filter_goods_id: '请输入鲜花编号',
       expire_time: '选择日期'
     }
   },
@@ -943,7 +943,7 @@ export default {
     help: {
       unpaid: '用户未付款，则订单自动取消',
       unconfirm: '未确认收货，则订单自动确认收货',
-      comment: '未评价商品，则取消评价资格'
+      comment: '未评价鲜花，则取消评价资格'
     }
   },
   config_wx: {
@@ -952,13 +952,13 @@ export default {
       other: '其他配置'
     },
     form: {
-      index_new: '新品首发栏目商品显示数量',
-      index_hot: '人气推荐栏目商品显示数量',
-      index_brand: '品牌制造商直供栏目品牌商显示数量',
+      index_new: '新品首发栏目鲜花显示数量',
+      index_hot: '人气推荐栏目鲜花显示数量',
+      index_brand: '花艺品牌直供栏目品牌商显示数量',
       index_topic: '专题精选栏目显示数量',
       catlog_list: '分类栏目显示数量',
-      catlog_goods: '分类栏目商品显示数量',
-      share: '商品分享功能'
+      catlog_goods: '分类栏目鲜花显示数量',
+      share: '鲜花分享功能'
     }
   },
   profile_notice: {

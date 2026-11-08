@@ -3,7 +3,7 @@
     <view class="search">
         <navigator url="/pages/search/search" class="input">
             <van-icon name="search" />
-            <text class="txt">商品搜索, 共{{goodsCount}}款好物</text>
+            <text class="txt">搜索鲜花，共 {{goodsCount}} 款好物</text>
         </navigator>
     </view>
     <swiper class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="1000">
@@ -62,7 +62,7 @@
             <view class="title">
                 <view>
                     <navigator url="/pages/groupon/grouponList/grouponList">
-                        <text class="txt">团购专区</text>
+                        <text class="txt">拼团优惠</text>
                     </navigator>
                 </view>
             </view>
@@ -94,7 +94,7 @@
     <view class="a-section a-brand">
         <view class="h">
             <navigator url="../brand/brand">
-                <text class="txt">品牌制造商直供</text>
+                <text class="txt">花艺品牌</text>
             </navigator>
         </view>
         <view class="b">
@@ -116,7 +116,7 @@
         <view class="h">
             <view>
                 <navigator url="../newGoods/newGoods">
-                    <text class="txt">周一周四 · 新品首发</text>
+                    <text class="txt">本周新花 · 每周一上新</text>
                 </navigator>
             </view>
         </view>
@@ -134,7 +134,7 @@
         <view class="h">
             <view>
                 <navigator url="../hotGoods/hotGoods">
-                    <text class="txt">人气推荐</text>
+                    <text class="txt">人气鲜花</text>
                 </navigator>
             </view>
         </view>
@@ -157,7 +157,7 @@
         <view class="h">
             <view>
                 <navigator url="/pages/topic/topic">
-                    <text class="txt">专题精选</text>
+                    <text class="txt">花艺专题</text>
                 </navigator>
             </view>
         </view>
@@ -192,7 +192,7 @@
             </block>
         </view>
         <navigator url="/pages/category/category?id={{item.id}}" class="t" wx:if="{{item.goodsList.length>0}}">
-            <view class="txt">{{'更多'+item.name+'好物 >'}}</view>
+            <view class="txt">{{'更多'+item.name+'鲜花 >'}}</view>
         </navigator>
     </view>
 </view>

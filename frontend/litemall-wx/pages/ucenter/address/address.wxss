@@ -46,8 +46,8 @@ page {
   line-height: 28rpx;
   text-align: center;
   font-size: 20rpx;
-  color: #b4282d;
-  border: 1rpx solid #b4282d;
+  color: #c2456a;
+  border: 1rpx solid #c2456a;
   visibility: visible;
 }
 

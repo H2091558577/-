@@ -44,7 +44,7 @@ page {
 }
 
 .item-c .cost {
-  color: #b4282d;
+  color: #c2456a;
 }
 
 .item-c .btn {
@@ -57,7 +57,7 @@ page {
 }
 
 .item-c .btn.active {
-  background: #b4282d;
+  background: #c2456a;
   color: #fff;
 }
 
@@ -83,7 +83,7 @@ page {
 .order-goods .h .status {
   float: right;
   font-size: 30rpx;
-  color: #b4282d;
+  color: #c2456a;
 }
 
 .order-goods .item {
@@ -171,7 +171,7 @@ page {
 }
 
 .order-goods .item .btn.active {
-  background: #b4282d;
+  background: #c2456a;
   color: #fff;
 }
 
@@ -215,13 +215,13 @@ page {
 .order-bottom .pay-fee .label {
   display: inline-block;
   width: 140rpx;
-  color: #b4282d;
+  color: #c2456a;
 }
 
 .order-bottom .pay-fee .txt {
   display: inline-block;
   width: 140rpx;
-  color: #b4282d;
+  color: #c2456a;
 }
 
 .order-express {
@@ -248,13 +248,13 @@ page {
 .order-express .t {
   font-size: 29rpx;
   margin-left: 10.25rpx;
-  color: #a78845;
+  color: #c2456a;
 }
 
 .order-express .b {
   font-size: 29rpx;
   margin-left: 10.25rpx;
-  color: #a78845;
+  color: #c2456a;
 }
 
 .order-express .traces {
